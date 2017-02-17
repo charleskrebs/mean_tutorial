@@ -50,9 +50,9 @@ app.controller('MainCtrl', [
             $scope.link = '';
         };
 
-        $scope.incrementUpvotes = function(post) {
-            post.upvotes++;
-        }
+        $scope.incrementUpvotes = function(voteable) {
+            voteable.upvotes++;
+        };
     }
 ]);
 
